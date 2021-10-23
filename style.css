@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(to left, #3B8686, #79BD9A, #A8DBA8) no-repeat;
+}
+
+.FormContainer {
+    width: 650px;
+    height: 75%;
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 20px;
+
+    background: white;
+}
+
+/*
+LOGO CONFIG
+*/
+.LogoTopo {
+    width: 100%;
+    height: 206px;
+}
+
+.LogoTopo img {
+    width: 100%;
+    height: 200px;
+
+    border-radius: 20px 20px 0 0;
+}
+
+.LogoTopo h1 {
+    text-align: center;
+    font-size: 1.7rem;
+
+    z-index: 100;
+    position: relative;
+    top: -103px;
+
+    color: white;
+}
+
+/*
+FIELD CONFIG
+*/
+
+.CamposLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.FieldContainer {
+    width: 33rem;
+    height: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.FieldContainer input {
+    width: 80%;
+    height: 2.3rem;
+    padding-left: 10px;
+
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.AssistanceField {
+    width: 26.5rem;
+    margin: 10px 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.CheckBox input {
+    cursor: pointer;
+}
+
+.AssistanceField span a {
+    text-decoration: none;
+    color: black;
+
+    cursor: pointer;
+}
+
+.LoginButton {
+    width: 10rem;
+    height: 2.3rem;
+
+    color: white;
+    background: #57b846;
+
+    border-radius: 30px;
+    border: none;
+
+    cursor: pointer;
+}
+
+.LoginButton:hover {
+    box-shadow: 1px 1px 6px -2px black;
+}
